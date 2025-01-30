@@ -1,0 +1,118 @@
+* {
+    font-family: "Liter", serif;
+    margin: 0;
+    border: 1px dashed red;
+    min-height: 10px;
+    width: 100%;
+    height: 100%;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+  }
+
+  .wrapper {
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 3508px;
+    width: 2480px;
+    /* box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.3); */
+  }
+
+  header{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+    width: 100%;
+    height: 15%;
+  }
+
+  .presentation {
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    height: 100%;
+
+  }
+
+  .contact {
+    display: flex;
+    justify-content: flex-end;
+    width: 1100px;
+    height: 100%;
+  }
+
+  main { /*No tocar*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+  }
+
+  .tech {
+    display: flex;
+    flex-direction: column;
+    background-color: lime;
+    width: 1100px;
+    height: auto;
+  }
+  .techExp {
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    width: 1100px;
+    height: 50%;
+  }
+
+  h1 {
+    height: 50px;
+  }
+
+  h2 {
+    height: 50px;
+  }
+
+  li {
+    height: 50px;
+  }
+
+  p {
+    height: 50px;
+  }
+
+  .education{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    width: 1100px;
+    height: 50%;
+  }
+
+  .skillsWork{
+    background-color: red;
+    width: 1100px;
+  }
+
+  .skills{
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    width: 1100px;
+    height: 5%;
+  }
+
+  .work{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    width: 1100px;
+    height: 95%;
+  }
